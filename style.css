@@ -1,0 +1,43 @@
+h1 {
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: left;
+    margin-bottom: 10px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    margin: 1px;
+    border: 1px solid black;
+    background: white;
+    display: inline-block;
+}
+
+.square_ocean {
+    width: 50px;
+    height: 50px;
+    margin: 1px;
+    border: 1px solid black;
+    background: blue;
+    display: inline-block;
+}
+
+.square_uninfected {
+    width: 50px;
+    height: 50px;
+    margin: 1px;
+    border: 1px solid black;
+    background: green;
+    display: inline-block;
+}
+
+.square_infected {
+    width: 50px;
+    height: 50px;
+    margin: 1px;
+    border: 1px solid black;
+    background: pink;
+    display: inline-block;
+}
